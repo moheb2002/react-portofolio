@@ -1,0 +1,49 @@
+a {
+    text-decoration: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.se {
+    padding-left: 45%;
+    padding-top: 15px;
+    font-weight: 800;
+    font-size: larger;
+    cursor: pointer;
+    color: black;
+}
+.containe {
+    display: flex;
+    align-items: center;
+    justify-content: space-around ;
+    background-color: black;
+    height: auto ;
+}
+.h {
+    color: white;
+    font-weight: 500;
+    font-size: larger;
+}
+P {
+    color: blue;
+}
+.im {
+    opacity: 50%;
+    cursor: pointer;
+    width: 300px;
+}
+.im:hover {
+    opacity: 100%;
+}
+@media (max-width: 950px) {
+    .containe{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .h {
+        padding-top: 15px;
+    }
+}
+

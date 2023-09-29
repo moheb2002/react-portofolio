@@ -1,0 +1,25 @@
+.Contact-Container{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+a {
+    text-decoration: none;
+}
+.as:hover{
+        background:white ;
+        padding: 2px;
+        transition: .4s;
+        -webkit-transition: .4s;
+        -moz-transition: .4s;
+        -ms-transition: .4s;
+        -o-transition: .4s;
+    }
+@media (max-width:767px) {
+    .Contact-Container{
+    flex-direction: column;
+    justify-content: space-between
+    }
+}

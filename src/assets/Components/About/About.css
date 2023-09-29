@@ -1,0 +1,32 @@
+a {
+    text-decoration: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.ab {
+    padding-left: 45%;
+    padding-top: 15px;
+    font-weight: 800;
+    font-size: larger;
+    cursor: pointer;
+}
+.about-container {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.po {
+    max-width: 70%;
+}
+.h {
+    width: 300px;
+    cursor: pointer;
+    opacity: 60%;
+}
+.h:hover{
+    opacity: 100%;
+}
